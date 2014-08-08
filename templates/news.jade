@@ -1,0 +1,27 @@
+extends layout
+
+block title
+  title= page.title + ' – ' + locals.name
+  meta(property='og:title', content= page.title + ' – ' + locals.name)
+
+block content
+  .news
+    .grid
+      .small-12.columns
+        h1 News
+          a.icon-rss(href='/feed.xml') &nbsp;
+    .grid
+      - var articles = _.chain(contents.news._.directories).map(function(item) {
+      -   return item.index;
+      - }).compact().sortBy(function(item) {
+      -   return -item.date;
+      - }).value();
+
+      each article in articles
+        article.news__article.small-12.columns
+          h3
+            small= moment(article.date).format('MMMM DD, YYYY')
+            br
+            a(href=article.url)
+              = article.title
+          section.news__article__content!= article.intro

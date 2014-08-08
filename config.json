@@ -1,0 +1,24 @@
+{
+  "locals": {
+    "url": "http://2015.jsunconf.eu/",
+    "name": "JS Unconf 2015",
+    "owner": "JS Unconf",
+    "description": "JavaScript Unconference 2014 in Hamburg. It's your conference. You decide what will happen.",
+    "keywords": "2014, javascript, unconference, conference, hamburg, javascript unconference, js, js unconf"
+  },
+  "plugins": [
+    "./node_modules/wintersmith-stylus/",
+    "wintersmith-livereload"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "lodash"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}

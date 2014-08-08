@@ -1,0 +1,14 @@
+extends layout
+
+block title
+  title= page.title + ' – ' + locals.name
+  meta(property='og:title', content= page.title + ' – ' + locals.name)
+
+block content
+  .grid
+    .small-12.columns
+      article
+        header
+          h1!= page.title
+
+        section!= page.html

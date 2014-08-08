@@ -1,0 +1,17 @@
+extends layout
+
+block title
+  title= page.title + ' – ' + locals.name
+  meta(property='og:title', content= page.title + ' – ' + locals.name)
+
+block content
+  .grid
+    .small-12.columns
+      article.article
+        header.article__header
+          h1.article__header__title
+            small= moment(page.date).format('MMMM DD, YYYY')
+            br
+            != page.title
+
+        section.article__content!= page.html

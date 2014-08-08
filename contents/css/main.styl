@@ -1,0 +1,95 @@
+@import 'nib'
+@import '../bower_components/normalize.styl/normalize.styl'
+@import '../bower_components/stackenblochen/stackenblochen.styl'
+
+$violet = #92137F;
+$red-violet = #8f1332;
+$grey = #aab2bd
+$grey-light = #e6e9ed
+$grey-dark = #434a54
+
+*, *:before, *:after
+  box-sizing: border-box
+
+html, body
+  height: 100%
+  color: $grey-dark
+  font-family: 'Merriweather', sans-serif
+  font-size: 100%
+  line-height: 1.333
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -ms-content-zooming: none
+
+figure
+  margin: 0
+  img
+    display: block
+
+p
+  text-indent: 1em
+
+a
+  text-decoration: none
+  color: $red-violet
+  &:hover, &:focus
+    text-decoration: underline
+
+h1
+  text-align: center
+  margin: 2em
+  line-height: 1.666
+  &:before
+    content: ''
+    width: 100%
+    border-top: 2px solid $grey-dark
+
+img
+  vertical-align: bottom
+
+hr
+  font-size: 1rem
+  margin: 0
+  height: 1px
+  border: none
+  border-top: 1px solid $grey-light
+
+.header
+  font-size: 1rem
+  background: $violet url('/images/header.jpg') center center no-repeat
+  background-size: cover
+  text-align: center
+  color: white
+  &__logo
+    border: 1px solid white
+    margin: 2em 0
+  &__headline
+    font-size: 2em
+    margin: 2em 0
+    vertical-align: middle
+
+.menu
+  font-size: 1rem
+  list-style: none
+  margin: 2em 0
+  &__item
+    display: inline-block
+    &__link
+      font-size: 1.25em
+      display: inline-block
+      color: white
+      font-weight: bold
+      padding: .25em
+      margin: .25em
+
+.footer
+  font-size: 1rem
+  line-height: 2em
+  margin-top: 2em
+  padding: 2em 0
+  color: white
+  background: $violet
+  a
+    color: white
+  &__links
+    text-align: right

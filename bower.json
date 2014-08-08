@@ -1,0 +1,9 @@
+{
+  "name": "2015.jsunconf.eu",
+  "version": "0.0.0",
+  "dependencies": {
+    "normalize.styl": "~3.0.0",
+    "stackenblochen": "~0.2.7"
+},
+  "devDependencies": {}
+}
