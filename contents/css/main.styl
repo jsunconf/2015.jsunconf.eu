@@ -5,6 +5,7 @@
 $violet = #92137F;
 $red-violet = #8f1332;
 $grey = #aab2bd
+$grey-very-light = #f5f7fa
 $grey-light = #e6e9ed
 $grey-dark = #434a54
 
@@ -40,6 +41,7 @@ h1
   margin: 1.5em 15%
   line-height: 1.666
   border-bottom: 2px solid $grey-light
+  font-style: italic
 
 img
   vertical-align: bottom
@@ -78,6 +80,22 @@ hr
       font-weight: bold
       padding: .25em
       margin: .25em
+
+.about
+  font-size: 1rem
+  &__link
+    display: inline-block
+    max-width: 100%
+    color: $grey-dark
+    background: $grey-very-light
+    &:hover, &:focus
+      .about__link__image
+        opacity: .9
+        transform: scale(1.05)
+    &__image
+      transition: opacity .3s, transform .3s
+      &__caption
+        padding: .5em
 
 .footer
   font-size: 1rem

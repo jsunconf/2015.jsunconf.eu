@@ -11,39 +11,33 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
 
 <div class="grid about">
   <div class="small-6 medium-4 large-2 columns">
-    <figure class="about__image">
-      <a href="https://twitter.com/robinson_k" target="_blank">
-        <img src="/images/robinson_k.jpg" width="305" height="305">
-      </a>
-      <figcaption class="about__image__caption">
-        <a href="https://twitter.com/robinson_k" target="_blank">
+    <figure>
+      <a class="about__link" href="https://twitter.com/robinson_k" target="_blank">
+        <img src="/images/robinson_k.jpg" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
           Robert Kowalski – @robinson_k
-        </a>
-      </figcaption>
+        </figcaption>
+      </a>
     </figure>
   </div>
   <div class="small-6 medium-4 large-2 columns">
-    <figure class="about__image">
-      <a href="https://twitter.com/RobertKatzki" target="_blank">
-        <img src="/images/RobertKatzki.jpg" width="305" height="305">
-      </a>
-      <figcaption class="about__image__caption">
-        <a href="https://twitter.com/RobertKatzki" target="_blank">
+    <figure>
+      <a class="about__link" href="https://twitter.com/RobertKatzki" target="_blank">
+        <img src="/images/RobertKatzki.jpg" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
           Robert Katzki – @RobertKatzki
-        </a>
-      </figcaption>
+        </figcaption>
+      </a>
     </figure>
   </div>
   <div class="small-6 medium-4 large-2 columns">
-    <figure class="about__image">
-      <a href="https://twitter.com/RobinDrexler" target="_blank">
-        <img src="/images/RobinDrexler.jpg" width="305" height="305">
-      </a>
-      <figcaption class="about__image__caption">
-        <a href="https://twitter.com/RobinDrexler" target="_blank">
+    <figure>
+      <a class="about__link" href="https://twitter.com/RobinDrexler" target="_blank">
+        <img src="/images/RobinDrexler.jpg" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
           Robin Drexler – @RobinDrexler
-        </a>
-      </figcaption>
+        </figcaption>
+      </a>
     </figure>
   </div>
 </div>
