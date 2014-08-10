@@ -42,9 +42,10 @@ h1
   line-height: 1.666
   border-bottom: 2px solid $grey-light
   font-style: italic
-  small
-    color: $grey
-    font-size: .7em
+
+small
+  color: $grey
+  font-size: .7em
 
 img
   vertical-align: bottom
@@ -83,8 +84,12 @@ hr
       display: inline-block
       color: white
       font-weight: bold
-      padding: .25em
-      margin: .25em
+      padding: .25em .25em .15em .25em
+      margin: .25em .25em .35em .25em
+      border-bottom: 2px solid transparent
+      &:hover, &:focus
+        text-decoration: none
+        border-bottom-color: white
 
 .about
   font-size: 1rem

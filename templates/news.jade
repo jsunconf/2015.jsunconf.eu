@@ -7,10 +7,10 @@ block title
 block content
   .news
     .grid
-      .small-12.columns
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
         h1 News
           a.icon-rss(href='/feed.xml') &nbsp;
-    .grid
+
       - var articles = _.chain(contents.news._.directories).map(function(item) {
       -   return item.index;
       - }).compact().sortBy(function(item) {
@@ -18,8 +18,8 @@ block content
       - }).value();
 
       each article in articles
-        article.news__article.small-12.columns
-          h3
+        article.news__article.small-12.medium-10.medium-centered.large-8.large-centered.columns
+          h2
             small= moment(article.date).format('MMMM DD, YYYY')
             br
             a(href=article.url)

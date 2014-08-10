@@ -10,8 +10,8 @@ block content
 
   .news
     .grid
-      .small-10.columns
-        h2 News
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 News
           a.icon-rss(href='/feed.xml') &nbsp;
     .grid
       - var articles = _.chain(contents.news._.directories).map(function(item) {
@@ -23,21 +23,21 @@ block content
       - }).value();
 
       each article in articles
-        article.news__article.small-12.columns
-          h3.news__article__title
+        article.news__article.small-12.medium-10.medium-centered.large-8.large-centered.columns
+          h2.news__article__title
             small= moment(article.date).format('MMMM DD, YYYY')
             br
             a(href=article.url)= article.title
           section.news__article__content!= article.intro
 
     .grid
-      .small-12.columns
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
         a(href='/news/', title='News') View all news »
 
 
   .location
     .grid
-      .small-12.columns
-        h2 Location
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 Location
         div
         != contents.location['index.md'].html
