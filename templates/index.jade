@@ -11,7 +11,7 @@ block content
   .news
     .grid
       .small-12.medium-10.medium-centered.large-8.large-centered.columns
-        h1 News
+        h1 Latest News
           a.icon-rss(href='/feed.xml') &nbsp;
     .grid
       - var articles = _.chain(contents.news._.directories).map(function(item) {
@@ -31,7 +31,7 @@ block content
           section.news__article__content!= article.intro
 
     .grid
-      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+      .news__more.small-12.medium-10.medium-centered.large-8.large-centered.columns
         a(href='/news/', title='News') View all news »
 
 
