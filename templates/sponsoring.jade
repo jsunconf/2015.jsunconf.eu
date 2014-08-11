@@ -5,24 +5,24 @@ block title
   meta(property='og:title', content= page.title + ' – ' + locals.name)
 
 block content
-  .grid
+  .grid.sponsoring
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
       article
         header
           h1!= page.title
 
-        h2 Are you interested in sponsoring the JavaScript Unconference? We are still looking for sponsors!
+        h2 Are you interested in sponsoring the JavaScript Unconference 2015? We are still looking for sponsors!
 
-        .sponsoring
+        .sponsoring__details
           //- a(href="/downloads/JSUnconfSponsoranschreibenENHH2014.pdf", onclick="ga('send', 'event', 'download', 'click', 'english');") Sponsorship flyer (english)
           //- br
           //- a(href="/downloads/JSUnconfSponsoranschreibenDEHH2014.pdf", onclick="ga('send', 'event', 'download', 'click', 'german');") Sponsorship flyer (german)
           //- br
-          .email
+          .sponsoring__details__email
             a(href="mailto:contact@jsunconf.eu") contact@jsunconf.eu
 
     .small-12.columns
-      img(src='sponsoring.jpg', alt='')
+      img.sponsoring__image(src='sponsoring.jpg', alt='')
 
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
         //- br

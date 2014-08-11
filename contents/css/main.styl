@@ -40,7 +40,7 @@ h1
   text-align: center
   margin: 1.5em 15%
   line-height: 1.666
-  border-bottom: 2px solid $grey-light
+  border-bottom: 1px solid $grey-light
   font-family: Lato, sans-serif
   font-weight: 300
   font-style: normal
@@ -68,6 +68,10 @@ hr
   &__logo
     border: 1px solid white
     margin: 2em 0
+    transition: all .25s
+    &:hover, &:focus
+      transform: rotate(20deg)
+      border-radius: 20%
     &__background
       fill: transparent !important
   &__headline
@@ -89,7 +93,11 @@ hr
       padding: .25em .25em .15em .25em
       margin: .25em .25em .35em .25em
       border-bottom: 2px solid transparent
+      border-top-right-radius: 4px
+      border-top-left-radius: 4px
+      transition: all .25s
       &:hover, &:focus
+        background-color: rgba(0, 0, 0, .1)
         text-decoration: none
         border-bottom-color: white
 
@@ -104,6 +112,10 @@ hr
     text-align: center
     margin-top: 1em
     margin-bottom: 1em
+
+.sponsoring
+  &__image
+    margin-top: 2em
 
 .about
   font-size: 1rem
