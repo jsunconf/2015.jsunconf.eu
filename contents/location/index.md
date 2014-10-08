@@ -1,6 +1,7 @@
 ---
 title: Location
 template: simple.jade
+category: location
 ---
 
 Somewhere in Hamburg…

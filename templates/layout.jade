@@ -28,7 +28,7 @@ html(lang='en')
     link(href='http://fonts.googleapis.com/css?family=Lato:300|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='/css/main.css')
 
-  body.site
+  body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
     header.header
       .grid
         .small-12.large-6.columns
@@ -45,17 +45,17 @@ html(lang='en')
           .small-12.columns
             ul.menu
               li.menu__item
-                a.menu__item__link(href='/news/') News
+                a.menu__item__link.menu__item__link--news(href='/news/') News
               li.menu__item
-                a.menu__item__link(href='/location/') Location
+                a.menu__item__link.menu__item__link--location(href='/location/') Location
+              //- li.menu__item
+              //-   a.menu__item__link.menu__item__link--schedule(href='http://schedule.jsunconf.eu/') Schedule
+              //- li.menu__item
+              //-   a.menu__item__link.menu__item__link--contribs(href='http://contribs.jsunconf.eu/') Contribs &amp; Interests
               li.menu__item
-                a.menu__item__link(href='http://schedule.jsunconf.eu/') Schedule
+                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
               li.menu__item
-                a.menu__item__link(href='http://contribs.jsunconf.eu/') Contribs &amp; Interests
-              li.menu__item
-                a.menu__item__link(href='/sponsoring/') Sponsoring
-              li.menu__item
-                a.menu__item__link(href='/about/') About
+                a.menu__item__link.menu__item__link--about(href='/about/') About
 
     .content-wrapper
       block content
