@@ -30,6 +30,7 @@ figure
 a
   text-decoration: none
   color: $red-violet
+  transition: color .2s
   &:hover, &:focus
     text-decoration: underline
 
@@ -55,11 +56,6 @@ hr
   height: 1px
   border: none
   border-top: 1px solid $grey-light
-
-.site
-  display: flex
-  min-height: 100vh
-  flex-direction: column
 
 .header
   font-size: 1rem
@@ -103,9 +99,6 @@ hr
         text-decoration: none
         border-bottom-color: white
 
-.content-wrapper
-  flex: 1
-
 .intro-title
   border-bottom: none
   font-family: 'Merriweather', serif
@@ -129,6 +122,7 @@ hr
     max-width: 100%
     color: $grey-dark
     background: $grey-very-light
+    margin-bottom: 2em
     &:hover, &:focus
       .about__link__image
         opacity: .9
@@ -141,11 +135,13 @@ hr
 .footer
   font-size: 1rem
   line-height: 2em
-  margin-top: 2em
-  padding: 2em 0
-  color: white
-  background: $grey-dark
+  padding: 4em 0
+  color: $grey
+  text-align: center
+  &__row
+    margin-top: 1em
   a
-    color: white
-  &__links
-    text-align: right
+    color: $grey
+    text-decoration: underline
+    &:hover, &:focus
+      color: $grey-dark
