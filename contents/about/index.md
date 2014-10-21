@@ -1,6 +1,7 @@
 ---
 title: About
 template: simple.jade
+category: about
 ---
 
 ## What is an Unconf?

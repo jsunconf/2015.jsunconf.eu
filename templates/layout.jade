@@ -28,7 +28,7 @@ html(lang='en')
     link(href='http://fonts.googleapis.com/css?family=Lato:300|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='/css/main.css')
 
-  body.site
+  body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
     header.header
       .grid
         .small-12.large-6.columns
@@ -45,90 +45,92 @@ html(lang='en')
           .small-12.columns
             ul.menu
               li.menu__item
-                a.menu__item__link(href='/news/') News
+                a.menu__item__link.menu__item__link--news(href='/news/') News
               li.menu__item
-                a.menu__item__link(href='/location/') Location
+                a.menu__item__link.menu__item__link--location(href='/location/') Location
+              //- li.menu__item
+              //-   a.menu__item__link.menu__item__link--schedule(href='http://schedule.jsunconf.eu/') Schedule
+              //- li.menu__item
+              //-   a.menu__item__link.menu__item__link--contribs(href='http://contribs.jsunconf.eu/') Contribs &amp; Interests
               li.menu__item
-                a.menu__item__link(href='http://schedule.jsunconf.eu/') Schedule
+                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
               li.menu__item
-                a.menu__item__link(href='http://contribs.jsunconf.eu/') Contribs &amp; Interests
-              li.menu__item
-                a.menu__item__link(href='/sponsoring/') Sponsoring
-              li.menu__item
-                a.menu__item__link(href='/about/') About
+                a.menu__item__link.menu__item__link--about(href='/about/') About
 
-    .content-wrapper
-      block content
+    block content
 
-      //- block sponsors
-      //-   - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-      //-   -   return item.index;
-      //-   - }).compact().sortBy(function(item) {
-      //-   -   return item.name;
-      //-   - }).value();
+    //- block sponsors
+    //-   - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+    //-   -   return item.index;
+    //-   - }).compact().sortBy(function(item) {
+    //-   -   return item.name;
+    //-   - }).value();
 
-      //-   - var goldSponsors = _.filter(sponsors, function(sponsor) {
-      //-   -   return sponsor.metadata.type === 'gold';
-      //-   - })
+    //-   - var goldSponsors = _.filter(sponsors, function(sponsor) {
+    //-   -   return sponsor.metadata.type === 'gold';
+    //-   - })
 
-      //-   .grid
-      //-     .small-12.columns
-      //-       .sponsor-list
-      //-         h3.sponsor-list__title Gold Sponsors
-      //-         each sponsor in goldSponsors
-      //-           .small-12.columns.sponsor
-      //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-      //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+    //-   .grid
+    //-     .small-12.columns
+    //-       .sponsor-list
+    //-         h3.sponsor-list__title Gold Sponsors
+    //-         each sponsor in goldSponsors
+    //-           .small-12.columns.sponsor
+    //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+    //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-      //-   - var silverSponsors = _.filter(sponsors, function(sponsor) {
-      //-   -   return sponsor.metadata.type === 'silver';
-      //-   - })
+    //-   - var silverSponsors = _.filter(sponsors, function(sponsor) {
+    //-   -   return sponsor.metadata.type === 'silver';
+    //-   - })
 
-      //-   .grid
-      //-     .small-12.columns
-      //-       .sponsor-list
-      //-         h3.sponsor-list__title Silver Sponsors
-      //-         each sponsor in silverSponsors
-      //-           .small-12.columns.sponsor
-      //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-      //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+    //-   .grid
+    //-     .small-12.columns
+    //-       .sponsor-list
+    //-         h3.sponsor-list__title Silver Sponsors
+    //-         each sponsor in silverSponsors
+    //-           .small-12.columns.sponsor
+    //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+    //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-      //-   - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
-      //-   -   return sponsor.metadata.type === 'bronze';
-      //-   - })
+    //-   - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+    //-   -   return sponsor.metadata.type === 'bronze';
+    //-   - })
 
-      //-   .grid
-      //-     .small-12.columns
-      //-       .sponsor-list
-      //-         h3.sponsor-list__title Bronze Sponsors
-      //-         each sponsor in bronzeSponsors
-      //-           .small-6.large-6.columns.sponsor
-      //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-      //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+    //-   .grid
+    //-     .small-12.columns
+    //-       .sponsor-list
+    //-         h3.sponsor-list__title Bronze Sponsors
+    //-         each sponsor in bronzeSponsors
+    //-           .small-6.large-6.columns.sponsor
+    //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+    //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-      //-   - var supporters = _.filter(sponsors, function(sponsor) {
-      //-   -   return sponsor.metadata.type === 'supporter';
-      //-   - })
+    //-   - var supporters = _.filter(sponsors, function(sponsor) {
+    //-   -   return sponsor.metadata.type === 'supporter';
+    //-   - })
 
-      //-   .grid
-      //-     .small-12.columns
-      //-       .sponsor-list
-      //-         h3.sponsor-list__title Supporters
-      //-         each sponsor in supporters
-      //-           .small-6.large-6.columns.sponsor
-      //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-      //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+    //-   .grid
+    //-     .small-12.columns
+    //-       .sponsor-list
+    //-         h3.sponsor-list__title Supporters
+    //-         each sponsor in supporters
+    //-           .small-6.large-6.columns.sponsor
+    //-             a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+    //-               img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
     footer.footer
-      .grid
-        .small-0.large-4.columns made with &hearts; and node.js
-        .small-12.large-8.columns
-          .footer__links
-            a(href='http://twitter.com/jsunconf') @jsunconf
-            | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            a(href='/imprint/') Imprint
-            | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            a(href='/code-of-conduct/') Code of Conduct
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns made with &hearts; and node.js
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns
+          a(href='http://twitter.com/jsunconf') @jsunconf
+          | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          a(href='/imprint/') Imprint
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns
+          | We expect everybody to follow our&nbsp;
+          a(href='/code-of-conduct/') Code of Conduct
+          | .
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
