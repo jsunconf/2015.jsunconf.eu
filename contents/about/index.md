@@ -41,4 +41,14 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
       </a>
     </figure>
   </div>
+  <div class="small-6 large-4 columns">
+    <figure>
+      <a class="about__link" href="https://twitter.com/tu404" target="_blank">
+        <img src="/images/TinaUmlandt.jpg" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
+          Tina Umlandt – @tu404
+        </figcaption>
+      </a>
+    </figure>
+  </div>
 </div>
