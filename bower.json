@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "normalize.styl": "~3.0.0",
-    "stackenblochen": "~0.2.7"
-},
+    "stackenblochen": "~0.2.7",
+    "jquery-2.1.0.min": "http://code.jquery.com/jquery-2.1.0.min.js"
+  },
   "devDependencies": {}
 }
