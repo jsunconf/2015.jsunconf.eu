@@ -31,7 +31,7 @@ block content
           section.news__article__content!= article.intro
 
     .grid
-      .news__more.small-12.medium-10.medium-centered.large-8.large-centered.columns
+      .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
         a(href='/news/', title='News') View all news »
 
 
@@ -39,5 +39,6 @@ block content
     .grid
       .small-12.medium-10.medium-centered.large-8.large-centered.columns
         h1 Location
-        div
-        != contents.location['index.md'].html
+        iframe(width='100%', height='500px', frameBorder='0', src='https://a.tiles.mapbox.com/v4/roka.j6l74hf8/attribution,zoompan.html?access_token=pk.eyJ1Ijoicm9rYSIsImEiOiJvR29QUEp3In0.xeb909L0DGJcmmprwfIwKA')
+      .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
+        a(href='/location', title='Find out more') Find out more about the location »
