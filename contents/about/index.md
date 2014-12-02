@@ -51,4 +51,14 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
       </a>
     </figure>
   </div>
+  <div class="small-6 large-4 columns">
+    <figure>
+      <a class="about__link" href="https://twitter.com/sp3c1" target="_blank">
+        <img src="http://www.gravatar.com/avatar/c02eb2fdc626e12d952ba6a02f76ad33.png?s=305" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
+          Philipp Hinrichsen – @sp3c1
+        </figcaption>
+      </a>
+    </figure>
+  </div>
 </div>
