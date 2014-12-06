@@ -3,6 +3,10 @@ title: Imprint
 template: simple.jade
 ---
 
+The JS Unconf is organized by the <a href="http://www.bootev.org/">BOOT e.V.</a> and the <a href="http://www2.informatik.uni-hamburg.de/fachschaft/wiki/index.php/Fachschaftsrat">FSR Informatik der Universität Hamburg</a>.
+<br/>
+<br/>
+
 BOOT - Best Of Open Technologies e.V.<br/>
 Eingang 11<br/>
 Stresemanstrasse 375<br/>
