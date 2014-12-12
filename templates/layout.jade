@@ -83,7 +83,7 @@ html(lang='en')
                 .sponsor-list
                   h2.sponsor-list__title Gold Sponsors
                   each sponsor in goldSponsors
-                    .text-center
+                    .sponsor.text-center
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
