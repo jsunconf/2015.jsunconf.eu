@@ -32,40 +32,39 @@ block content
               ga('send', 'event', 'download', 'click', href);
             });
           });
-    .small-12.columns
-      img.sponsoring__image(src='sponsoring.jpg', alt='')
 
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
-        //- br
-        //- br
+        br
+        br
 
-        //- h3 The JavaScript Unconference would not be possible without the kind support of these companies:
+        h3 The JavaScript Unconference would not be possible without the kind support of these companies:
 
-        //- - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-        //- -   return item.index;
-        //- - }).compact().sortBy(function(item) {
-        //- -   return item.name;
-        //- - }).value();
+        - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+        -   return item.index;
+        - }).compact().sortBy(function(item) {
+        -   return item.name;
+        - }).value();
 
-        //- .grid
-        //-   .small-12.columns
-        //-     .sponsor-list
-        //-       h3.sponsor-list__title Gold Sponsors
+        .row
+          .small-12.columns
+            .sponsor-list
+              h2.sponsor-list__title Gold Sponsors
 
-        //-   - var goldSponsors = _.filter(sponsors, function(sponsor) {
-        //-   -   return sponsor.metadata.type === 'gold';
-        //-   - });
+          - var goldSponsors = _.filter(sponsors, function(sponsor) {
+          -   return sponsor.metadata.type === 'gold';
+          - });
 
-        //-   each sponsor in goldSponsors
-        //-     .small-12.columns.sponsor
-        //-       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-        //-         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-        //-       p
-        //-         br
-        //-         a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-        //-         br
-        //-         a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-        //-       p.sponsor__text!= sponsor.metadata.text
+          each sponsor in goldSponsors
+            .small-12.columns.sponsor
+              .text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+                p
+                  br
+                  a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
+                  br
+                  a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
+              p.sponsor__text!= sponsor.metadata.text
 
         //- .grid
         //-   .small-12.columns
