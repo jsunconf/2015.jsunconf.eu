@@ -1,0 +1,7 @@
+{
+  "name": "trivago",
+  "text": "trivago is the world's largest hotel search website, with over 700,000 hotels, 220 partner websites and 75 million monthly visitors. We are an international IT company constantly implementing the newest technology. Over 120 IT specialists are currently working on the continuous development of the high-traffic metasearch engine at the company's headquarters in Dusseldorf. Here's a little insight into our world of IT:<ul><li> PHP 5.4 at its best, handmade on FreeBSD</li><li>Javascript in browser and backend</li><li>Symfony2, Twig, Twitter Bootstrap, jQuery, Backbone and much more</li><li>Storage facilities: Percona MYSQL, TokuDB, Redis, Memcached and Varnish</li><li>“Big Data” areas: Java, Hadoop MR, Hive, Pig & Co</li></ul><br/>Curious? Visit our stand or go to <a href=\"http://www.trivago.com/jobs/\">www.trivago.com/jobs/</a>",
+  "link": "http://www.trivago.com/jobs",
+  "twitter": "@trivago",
+  "type": "gold"
+}
