@@ -62,3 +62,9 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
     </figure>
   </div>
 </div>
+
+## Special thanks:
+
+The JS Unconf would not be possible without the helping hands of these nice people:
+
+ - Dave Brotherstone - <a href="https://twitter.com/davegb3">@davegb3</a>
