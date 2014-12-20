@@ -62,3 +62,9 @@ Unconf means unconference. The JS Unconf is a non-profit unconference from the c
     </figure>
   </div>
 </div>
+
+## Special thanks:
+
+The JS Unconf would not be possible without the helping hands of these nice people:
+
+ - Dave Brotherstone - <a href="https://twitter.com/davegb3">@davegb3</a>
