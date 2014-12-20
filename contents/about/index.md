@@ -6,7 +6,7 @@ category: about
 
 ## What is an Unconf?
 
-Unconf means unconference. There is no schedule or speaker list in advance. Everybody can apply with a talk. Everybody can vote for talks. The talks with the most upvotes will be picked. The JS Unconf is organized by the <a href="http://www.bootev.org/">BOOT e.V.</a> and the <a href="http://www2.informatik.uni-hamburg.de/fachschaft/wiki/index.php/Fachschaftsrat">FSR Informatik der Universität Hamburg</a>.
+Unconf means unconference. The JS Unconf is a non-profit unconference from the community for the community. There is no schedule or speaker list in advance. Everybody can apply with a talk. Everybody can vote for talks at the beginning of each day of the unconference. The talks which got the most votes from the attendees will be picked. The JS Unconf is organized by the <a href="http://www.bootev.org/">BOOT e.V.</a> and the <a href="http://www2.informatik.uni-hamburg.de/fachschaft/wiki/index.php/Fachschaftsrat">FSR Informatik der Universität Hamburg</a>.
 
 ## Organizers:
 
