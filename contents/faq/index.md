@@ -1,6 +1,7 @@
 ---
 title: Frequently asked questions
 template: simple.jade
+category: faq
 ---
 
 <ul>
