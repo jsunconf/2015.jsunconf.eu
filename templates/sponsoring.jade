@@ -66,25 +66,26 @@ block content
                   a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
               p.sponsor__text!= sponsor.metadata.text
 
-        //- .grid
-        //-   .small-12.columns
-        //-     .sponsor-list
-        //-       h3.sponsor-list__title Silver Sponsors
+        .row
+          .small-12.columns
+            .sponsor-list
+              h2.sponsor-list__title Silver Sponsors
 
-        //-   - var silverSponsors = _.filter(sponsors, function(sponsor) {
-        //-   -   return sponsor.metadata.type === 'silver';
-        //-   - });
+          - var silverSponsors = _.filter(sponsors, function(sponsor) {
+          -   return sponsor.metadata.type === 'silver';
+          - });
 
-        //-   each sponsor in silverSponsors
-        //-     .small-12.columns.sponsor
-        //-       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-        //-         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-        //-       p
-        //-         br
-        //-         a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-        //-         br
-        //-         a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-        //-       p.sponsor__text!= sponsor.metadata.text
+          each sponsor in silverSponsors
+            .small-12.columns.sponsor
+              .text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+                p
+                  br
+                  a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
+                  br
+                  a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
+              p.sponsor__text!= sponsor.metadata.text
 
         .row
           .small-12.columns
@@ -106,25 +107,6 @@ block content
                   br
                   a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
               p.sponsor__text!= sponsor.metadata.text
-
-        //- .grid
-        //-   .small-12.columns
-        //-     .sponsor-list
-        //-       h3.sponsor-list__title Supporters
-
-        //-   - var supporters = _.filter(sponsors, function(sponsor) {
-        //-   -   return sponsor.metadata.type === 'supporter';
-        //-   - })
-
-        //-   each sponsor in supporters
-        //-     .small-12.columns.sponsor
-        //-       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-        //-         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-        //-       p
-        //-         br
-        //-         a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-        //-         br
-        //-         a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
 
 block sponsors
   //- Empty
