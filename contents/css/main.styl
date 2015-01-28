@@ -94,20 +94,13 @@ hr
   display: inline-block
   color: $red-violet
   font-weight: bold
-  padding: .75em 1.5em
-  background: $grey-light
-  background: linear-gradient(135deg, transparent 10px, $grey-light 0) top left, linear-gradient(225deg, transparent 10px, $grey-light 0) top right, linear-gradient(315deg, transparent 10px, $grey-light 0) bottom right, linear-gradient(45deg,  transparent 10px, $grey-light 0) bottom left
-  background-image: radial-gradient(circle at 0 0, rgba(204,0,0,0) 9px, $grey-light 10px), radial-gradient(circle at 100% 0, rgba(204,0,0,0) 9px, $grey-light 10px),  radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 9px, $grey-light 10px), radial-gradient(circle at 0 100%, rgba(204,0,0,0) 9px, $grey-light 10px)
-  background-size: 50% 50%
-  background-repeat: no-repeat
-  filter: drop-shadow(5px 5px 5px white)
+  padding: .75em .75em .75em 3em
+  background: url('/images/ticket.svg') no-repeat center center
+  background-size: 100%
+  transform: rotate(5deg)
   transition: all .25s
   &:hover, &:focus
-    background: darken($grey-light, 10%)
-    background: linear-gradient(135deg, transparent 10px, darken($grey-light, 5%) 0) top left, linear-gradient(225deg, transparent 10px, darken($grey-light, 5%) 0) top right, linear-gradient(315deg, transparent 10px, darken($grey-light, 5%) 0) bottom right, linear-gradient(45deg,  transparent 10px, darken($grey-light, 5%) 0) bottom left
-    background-image: radial-gradient(circle at 0 0, rgba(204,0,0,0) 9px, darken($grey-light, 5%) 10px), radial-gradient(circle at 100% 0, rgba(204,0,0,0) 9px, darken($grey-light, 5%) 10px),  radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 9px, darken($grey-light, 5%) 10px), radial-gradient(circle at 0 100%, rgba(204,0,0,0) 9px, darken($grey-light, 5%) 10px)
-    background-size: 50% 50%
-    background-repeat: no-repeat
+    background-size: 110%
 
 .menu
   font-size: 1rem
