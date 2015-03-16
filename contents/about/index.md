@@ -61,6 +61,16 @@ Unconf means unconference. The JS Unconf is a non-profit unconference from the c
       </a>
     </figure>
   </div>
+  <div class="small-6 large-4 columns">
+    <figure>
+      <a class="about__link" href="https://twitter.com/aemkei" target="_blank">
+        <img src="http://secure.gravatar.com/avatar/0d9da77bb99bea710cbf711ed08e57d7.png?s=305" class="about__link__image" width="305" height="305">
+        <figcaption class="about__link__image__caption">
+          Martin Kleppe – @aemkei
+        </figcaption>
+      </a>
+    </figure>
+  </div>
 </div>
 
 ## Special thanks:
