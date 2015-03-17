@@ -1,0 +1,41 @@
+extends layout
+
+block title
+  title= page.title + ' – ' + locals.name
+  meta(property='og:title', content= page.title + ' – ' + locals.name)
+
+block content
+  
+  
+  .grid
+    .small-12.medium-10.medium-centered.large-8.large-centered.columns
+      article
+        header
+          h1!= page.title
+          
+        section
+          h2 What is an Unconf?
+
+          | Unconf means unconference. The JS Unconf is a non-profit unconference from the community for the community. There is no schedule or speaker list in advance. Everybody can apply with a talk. Everybody can vote for talks at the beginning of each day of the unconference. The talks which got the most votes from the attendees will be picked. The JS Unconf is organized by the 
+          a(href="http://www.bootev.org/") BOOT e.V. 
+          | and the 
+          a(href="http://www2.informatik.uni-hamburg.de/fachschaft/wiki/index.php/Fachschaftsrat") FSR Informatik der Universität Hamburg
+
+          h2 Organizers:
+
+          .grid.about
+            each organizer in page.metadata.organizers
+              .small-6.large-4.columns
+                figure
+                    a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
+                      img.about__link__image(src='/images/'+organizer.twitter+'.jpg', width='305', height='305')
+                      |         
+                      figcaption.about__link__image__caption
+                        = organizer.name
+                        |  &ndash; 
+                        = "@" + organizer.twitter
+                        
+          h2 Special thanks:
+          p The JS Unconf would not be possible without the helping hands of these nice people:
+          ul
+            li Dave Brotherstone - <a href="https://twitter.com/davegb3">@davegb3</a>
