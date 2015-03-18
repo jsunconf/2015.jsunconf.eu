@@ -1,6 +1,6 @@
 ---
 title: Tips on preparing a talk
-date: Today
+date: 2015-03-20
 template: article.jade
 category: news
 ---
