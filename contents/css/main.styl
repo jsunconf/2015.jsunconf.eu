@@ -31,6 +31,7 @@ a
   text-decoration: none
   color: $red-violet
   transition: color .2s
+  word-break: break-all
   &:hover, &:focus
     text-decoration: underline
 
@@ -68,19 +69,40 @@ hr
   background-size: cover
   text-align: center
   color: white
+  position: relative
   &__logo
     border: 1px solid white
     margin: 2em 0
     transition: all .25s
     &:hover, &:focus
-      transform: rotate(20deg)
+      transform: rotate(10deg)
       border-radius: 20%
     &__background
       fill: transparent !important
   &__headline
     font-size: 2em
-    margin: 2em 0
+    margin: 2em 0 1em 0
     vertical-align: middle
+  &__ticket-link
+    margin-bottom: 1em
+    @media $media-query-large
+      position: absolute
+      top: 50%
+      left: -5em
+
+.ticket-link
+  font-size: 1.25rem
+  display: inline-block
+  color: $red-violet
+  font-weight: bold
+  padding: .75em .75em .75em 3em
+  background: url('/images/ticket.svg') no-repeat center center
+  background-size: 100%
+  backface-visibility: hidden
+  transform: rotate(3deg)
+  transition: all .25s
+  &:hover, &:focus
+    background-size: 110%
 
 .menu
   font-size: 1rem

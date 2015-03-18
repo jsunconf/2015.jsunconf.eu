@@ -1,0 +1,31 @@
+{
+  "title": "About",
+  "template": "about.jade",
+  "category": "about",
+  "organizers": [
+    {
+      "twitter": "robinson_k",
+      "name": "Robert Kowalski"
+    },
+    {
+      "twitter": "RobertKatzki",
+      "name": "Robert Katzki"
+    },
+    {
+      "twitter": "RobinDrexler",
+      "name": "Robin Drexler"
+    },
+    {
+      "twitter": "tu404",
+      "name": "Tina Umlandt"
+    },
+    {
+      "twitter": "sp3c1",
+      "name": "Philipp Hinrichsen"
+    },
+    {
+      "twitter": "aemkei",
+      "name": "Martin Kleppe"
+    }
+  ]
+}
