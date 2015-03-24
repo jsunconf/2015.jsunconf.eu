@@ -19,6 +19,7 @@ Phone: +49 1520 9127095<br/>
 
 Tina Umlandt<br/>
 Twitter: [@tu404](https://twitter.com/tu404)<br/>
+Phone: +49 177 8979300
 
 ### Contact Ola (not part of the JS Unconf team)
 
