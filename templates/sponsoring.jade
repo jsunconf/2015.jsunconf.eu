@@ -11,28 +11,6 @@ block content
         header
           h1!= page.title
 
-        h2 Are you interested in sponsoring the JavaScript Unconference 2015? We are still looking for sponsors!
-
-        .sponsoring__details
-          a(href="/downloads/JSUnconf-Sponsoring-2015-EN.pdf") Sponsorship flyer (english)
-          br
-          a(href="/downloads/JSUnconf-Sponsoring-2015-DE.pdf") Sponsorship flyer (german)
-          br
-          br
-          .sponsoring__details__email
-            a(href="mailto:contact@jsunconf.eu") contact@jsunconf.eu
-        script(src="/bower_components/jquery-2.1.0.min/index.js")
-        script.
-          $(document).ready(function() {
-            $('.sponsoring__details').on('click', function(e) {
-              var href = $(e.target).attr('href');
-              if (!href) {
-                return;
-              }
-              ga('send', 'event', 'download', 'click', href);
-            });
-          });
-
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
         br
         br
