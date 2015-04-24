@@ -28,6 +28,8 @@ not one of the main organizers.
 
 Ola Gasidlo<br/>
 Twitter: [@misprintedtype](https://twitter.com/misprintedtype)<br/>
+Phone: +49 176 96917923
+
 
 ### Other helpful contacts
 
