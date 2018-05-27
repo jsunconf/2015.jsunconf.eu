@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS Unconf 2015</title>
+    <atom:link href="http://2015.jsunconf.eu//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://2015.jsunconf.eu/</link>
+    <description>JavaScript Unconference 2015 in Hamburg. It's your conference. You decide what will happen.</description>
+    <pubDate>Thu, 09 Apr 2015 02:00:00 +0200</pubDate>
+    <language>en</language>
+    <item>
+      <title>Diversity Tickets</title>
+      <link>http://2015.jsunconf.eu//news/diversity-tickets/</link>
+      <pubDate>Thu, 09 Apr 2015 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/diversity-tickets/</guid>
+      <author></author>
+      <description>&lt;p&gt;When we announced that we are giving away two tickets to folks that couldn’t attend otherwise, we didn’t expect that many responses!&lt;/p&gt;
+&lt;p&gt;Sadly we cannot give away a ticket to everyone. But we decided to support &lt;strong&gt;three&lt;/strong&gt; people with a free ticket and cover up to 150€ of their travel expenses!&lt;/p&gt;
+&lt;p&gt;Thanks for the great responses and see you in two weeks!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>JS Unconf gives away two tickets!</title>
+      <link>http://2015.jsunconf.eu//news/jsunconf-gives-away-two-tickets/</link>
+      <pubDate>Mon, 30 Mar 2015 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/jsunconf-gives-away-two-tickets/</guid>
+      <author></author>
+      <description>&lt;p&gt;We are giving away &lt;strong&gt;two&lt;/strong&gt; tickets for the JS Unconf on April 25 &amp;amp; 26!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here is the deal:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You will get a ticket to the conference&lt;/li&gt;
+&lt;li&gt;We will cover your travel expenses up to 150€&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All you need is to find a place to stay during the weekend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We are trying to enable folks who could not attend otherwise.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To win, send an email to &lt;a href=&quot;mailto:contact@jsunconf.eu&quot;&gt;contact@jsunconf.eu&lt;/a&gt;
+and answer these questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who are you?&lt;/li&gt;
+&lt;li&gt;What do you do?&lt;/li&gt;
+&lt;li&gt;Why should you win the ticket?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please send us an email &lt;strong&gt;until the 8th of April&lt;/strong&gt;. We are looking forward to your responses and will contact the winners by email.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Tips on preparing a talk</title>
+      <link>http://2015.jsunconf.eu//news/tips-on-how-to-prepare-a-talk/</link>
+      <pubDate>Mon, 23 Mar 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/tips-on-how-to-prepare-a-talk/</guid>
+      <author></author>
+      <description>&lt;p&gt;So you decided that you want to visit the JS Unconf this year. As you might know an unconference lives from the visitors and the talks are prepared by the visitors and get choosen in the morning of each conference day by the crowd. This gives everyone the chance to give an awesome talk. This is where you all come in.&lt;/p&gt;
+&lt;p&gt;If you work in a special environment, or you started an open source project or you have worked with a special library, It would be great if you can share your experience with the audience. 
+What also applyies is if you have a deep knowledge of something (git, angular.js, react or any other topic) it would be awesome if you can share your failures, experiences, learnings or conclusions.&lt;/p&gt;
+&lt;p&gt;Another cool thing is if you have a great interest in something and you might have accomplished to do some tutorials, and you are interested in more information from people which already worked a longer period of time with that technology, you may organize a discussion group.&lt;/p&gt;
+&lt;p&gt;But in any case, this a D.I.Y. conference. And everybody should share something to the community. If you are scared to speak alone you may find a friend or colleague who can can hold a talk with you.&lt;/p&gt;
+&lt;p&gt;If you are terrified to speak in public or you have no idea how to prepare a talk you should take a look at &lt;a href=&quot;http://speaking.io/&quot;&gt;speaking.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Overall the most important rule for an unconference is “DON’T PANIC!”. Nobody expects you to prepare fireworks and laser shows for your talk (But if you want to do it go ahead, but please give us a head up for the fireworks ;-)). &lt;/p&gt;
+&lt;p&gt;Here are some links which may be useful for creating a good talk
+Links&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://speaking.io/&quot;&gt;speaking.io&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weareallaweso.me/&quot;&gt;We are all awesome&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tools&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://slides.com/&quot;&gt;slides.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://slidr.io/&quot;&gt;slidr.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://shwr.me/&quot;&gt;shwr.me&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>JS Code Retreat</title>
+      <link>http://2015.jsunconf.eu//news/code-retreat/</link>
+      <pubDate>Mon, 16 Feb 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/code-retreat/</guid>
+      <author></author>
+      <description>&lt;p&gt;We are happy to announce our first free event around JS Unconf: a JavaScript Code Retreat! A Code Retreat is an event which focusses on improving your skills regarding the principles of software development and design. Seats are limited and you can RSVP at &lt;a href=&quot;http://www.meetup.com/JavaScript-CodeRetreat/events/220247039/&quot;&gt;http://www.meetup.com/JavaScript-CodeRetreat/events/220247039/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Rough Unconference Schedule</title>
+      <link>http://2015.jsunconf.eu//news/time-and-latest-info/</link>
+      <pubDate>Mon, 09 Feb 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/time-and-latest-info/</guid>
+      <author></author>
+      <description>&lt;p&gt;The JS Unconf will start each day at 9AM. Saturday evening will be an event at a secret location. All locations will be described in our &lt;a href=&quot;http://2015.jsunconf.eu/location/&quot;&gt;location section&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After the breakfast which starts at 9AM we will vote together which talks we want to see during the day.&lt;/p&gt;
+&lt;p&gt;We will have four parallel tracks and each slot has 45 minutes. You can organize your talk as you wish, between presentation, demo, discussion, Q&amp;amp;A, etc.&lt;/p&gt;
+&lt;p&gt;Speakers can add the links to their slides to our wiki: &lt;a href=&quot;https://github.com/jsunconf/2015.jsunconf.eu/wiki&quot;&gt;https://github.com/jsunconf/2015.jsunconf.eu/wiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Between each slot there are breaks for drinking coffee and sharing experiences.&lt;/p&gt;
+&lt;p&gt;The Unconference ends on Sunday around 5PM. The night before the conference we are organizing a pre party.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Contributions and interests</title>
+      <link>http://2015.jsunconf.eu//news/contributions-and-interests/</link>
+      <pubDate>Thu, 15 Jan 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/contributions-and-interests/</guid>
+      <author></author>
+      <description>&lt;p&gt;Your contributions, talks and discussions are essential for the Unconference. We created an application where you can collect your interests and proposals: &lt;a href=&quot;http://contriboot.jsunconf.eu/&quot;&gt;Contribs &amp;amp; Interests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please check out &lt;a href=&quot;http://contriboot.jsunconf.eu/&quot;&gt;http://contriboot.jsunconf.eu/&lt;/a&gt; and submit your talks and what talks you are interested in!&lt;/p&gt;
+&lt;p&gt;Everyone is invited to give a talk at JS Unconf: at the days of the conference we all vote together which talks we would love to see - the talks with the most votes will be put on the schedule then.&lt;/p&gt;
+&lt;p&gt;We are looking forward to many awesome sessions with you at the Unconference!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Tips and Sightseeing for your trip to Hamburg</title>
+      <link>http://2015.jsunconf.eu//news/hamburg-first-visit/</link>
+      <pubDate>Thu, 08 Jan 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/hamburg-first-visit/</guid>
+      <author></author>
+      <description>&lt;p&gt;First time visiting Hamburg? Having some days left before or after JS Unconf?&lt;/p&gt;
+&lt;h2 id=&quot;public-transportation&quot;&gt;Public Transportation&lt;/h2&gt;
+&lt;p&gt;The public transportation in Hamburg is done by the &lt;a href=&quot;http://www.hvv.de/en/index.php&quot;&gt;HVV&lt;/a&gt;. The important thing to know is that you &lt;strong&gt;need to buy a ticket before you go on the platform&lt;/strong&gt; and you don’t need to clock in the tickets, they are valid after you bought them. Don’t go behind the golden lines in the ground without a ticket! For busses you can buy your ticket at the driver.&lt;/p&gt;
+&lt;p&gt;A “Tagesticket” - a ticket that is valid the whole day and in large parts of Hamburg - is the best option most of the time, even if you just take 2 rides. It costs around 7€.&lt;/p&gt;
+&lt;h2 id=&quot;sightseeing&quot;&gt;Sightseeing&lt;/h2&gt;
+&lt;p&gt;Hamburg has one of the busiest ports in europe (third after Antwerp and Rotterdam). At the subway station “Landungsbrücken” harbor tours are starting, where you will get some informations regarding the harbor while driving around with a small boat. Protip: There are also HVV ferrys starting there, which you can use with a “Tagesticket”. With one of these ferries you can also drive to the station “Övelgönne” - where you can take a walk at the small beach of the Elbe river.&lt;/p&gt;
+&lt;p&gt;On sunday morning, starting at 5 a.m., there is the famous Hamburger Fischmarkt, which is also a popular destination for people on their way back home after a party night, e.g. after visiting the bars and clubs of the famous Reeperbahn.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Speicherstadt&quot;&gt;Speicherstadt&lt;/a&gt; is the old warehouse district of Hamburg. Even today the old warehouses are still used for goods like cocoa, coffee or carpets. But some of the buildings are hosting attractions for visitors, e.g. &lt;a href=&quot;http://en.wikipedia.org/wiki/Hamburg_Dungeon&quot;&gt;The Hamburg Dungeon&lt;/a&gt; and the &lt;a href=&quot;http://en.wikipedia.org/wiki/Miniatur_Wunderland&quot;&gt;Miniatur Wunderland&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Planten_un_Blomen&quot;&gt;Planten un Bloomen&lt;/a&gt; in the center of Hamburg near the subwaystation Dammtor is a nice park for having a rest in the sun. In the park there is also the tropical house of the University Hamburg, the entrance is free.&lt;/p&gt;
+&lt;p&gt;From the top of &lt;a href=&quot;http://en.wikipedia.org/wiki/St._Michael&amp;#39;s_Church,_Hamburg&quot;&gt;St. Michael’s Church&lt;/a&gt; you can see all parts of Hamburg. It costs some money to get up to the tower and currently the lift is not working so you have to take the stairs, but the sight is awesome.&lt;/p&gt;
+&lt;p&gt;Depending on how long you are staying in Hamburg, the &lt;a href=&quot;http://www.hamburg.de/hafengeburtstag-english/&quot;&gt;Harbor Birthday&lt;/a&gt; would be a fest you can vist, too.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Ticket sale is starting soon</title>
+      <link>http://2015.jsunconf.eu//news/tickets/</link>
+      <pubDate>Fri, 05 Dec 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/tickets/</guid>
+      <author></author>
+      <description>&lt;p&gt;And more great news for you!&lt;/p&gt;
+&lt;p&gt;We’ll sell our first batch of tickets starting on Sunday, 7th December, at 18:00! The “Early Bird” tickets will be 59.- € each.&lt;/p&gt;
+&lt;p&gt;So make sure to save the date!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Date and location confirmed</title>
+      <link>http://2015.jsunconf.eu//news/date-and-location-confirmed/</link>
+      <pubDate>Tue, 02 Dec 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/date-and-location-confirmed/</guid>
+      <author></author>
+      <description>&lt;p&gt;Great news! We found a location and decided on a date for the upcoming JS Unconf 2015!&lt;/p&gt;
+&lt;h3 id=&quot;date&quot;&gt;Date&lt;/h3&gt;
+&lt;p&gt;April 25 &amp;amp; 26, 2015&lt;/p&gt;
+&lt;h3 id=&quot;location&quot;&gt;&lt;a href=&quot;http://2015.jsunconf.eu/location&quot;&gt;Location&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Universität Hamburg&lt;/strong&gt;
+&lt;br&gt;
+&lt;strong&gt;Institut für organische Chemie&lt;/strong&gt;
+&lt;br&gt;
+Martin-Luther-King-Platz 6&lt;br&gt;
+20146 Hamburg&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>It's happening again</title>
+      <link>http://2015.jsunconf.eu//news/its-happening-again/</link>
+      <pubDate>Tue, 14 Oct 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2015.jsunconf.eu//news/its-happening-again/</guid>
+      <author></author>
+      <description>&lt;p&gt;You heard right – there will be a JS Unconf in 2015, too! Stay tuned for more details!&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

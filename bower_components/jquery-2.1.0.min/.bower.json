@@ -1,0 +1,14 @@
+{
+  "name": "jquery-2.1.0.min",
+  "_cacheHeaders": {
+    "ETag": "\"54499a47-1469f\"",
+    "Last-Modified": "Fri, 24 Oct 2014 00:16:07 GMT",
+    "Content-Length": "34151",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "_release": "e-tag:54499a47-",
+  "main": "index.js",
+  "_source": "http://code.jquery.com/jquery-2.1.0.min.js",
+  "_target": "*",
+  "_originalSource": "http://code.jquery.com/jquery-2.1.0.min.js"
+}
